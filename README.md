@@ -6,23 +6,23 @@ Description: These are a variety of Machine Learning Test files that demonstrate
 
 ## Table of Contents:
 
-Assignment 1: Gradient Descent
+Project 1: Gradient Descent
 
-Assignment 2: 
+Project 2: Eigendecomposition
 
-Assignment 3
+Project 3: Pseudo-Random Number Generators (PRNGS)
 
-Assignment 4
+Project 4: Synthetic Datasets
 
-Assignment 5
+Project 5: Linear Regression
 
-Assignment 6
+Project 6: Multiple Regression
 
-Assignment 7
+Project 7: Unsupervised Learning 1
 
-Assignment 8
+Project 8: Unsupervised Learning 1
 
-Assignment 9
+Project 9: Neural Network 1
 
-Assignment 10
+Project 10: Neural Network 2
 

@@ -1,8 +1,10 @@
+# Machine Learning Projects
+
 Author: Ronnie Saenz
 
 Description: These are a variety of Machine Learning Test files that demonstrate various applications of Machine Learning.
 
-Table of Contents:
+## Table of Contents:
 
 Assignment 1: Gradient Descent
 

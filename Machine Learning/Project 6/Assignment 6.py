@@ -47,5 +47,5 @@ print("Difference between Normal equation prediction and actual coefficients: " 
 
 print("Difference between LinearRegression() prediction and actual coefficients: " , np.subtract(USD_digits , reg_a))
 
-print("Difference between Normal equation prediction and Normal equation prediction coefficients: " , np.subtract(reg_a , theta_a))
+print("Difference between Normal equation prediction and Linear Regression prediction coefficients: " , abs(np.subtract(reg_a , theta_a)))
 

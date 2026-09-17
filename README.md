@@ -22,11 +22,12 @@ This project generates M pseudo-random numbers from distribution U(0,1) and find
 This project performs linear regression on a linearized dataset that originally can be assumed to follow the exponential model y = a*e^(bx). The value for a is 7, the value for b is user inputted, and the value for x is a random value between 0 and 5. A data set of 100 observations is generated with Gaussian noise added to each compound value of y. The dataset is displayed then linearized. Finally, the script performs linear regression on the dataset, then prints the estimated values of a and b with a comparison to the original values.
 
 ### Project 6: Multiple Regression
-This project creates a noisy dataset based on a linear combination pattern and uses multiple regression to discover the pattern. 
+This project creates a noisy dataset based on a linear combination pattern and uses multiple regression to discover the pattern. It generates a dataset of 100 rows and 4 columns from the U(0,1) distribution and obtains the fifth column by computing the linear combination of the first four columns with coefficients of 6,8,5, and 7. Afterward, Gaussian noise is added to the fifth column which completes the dataset. Two arrays are created with the coefficients of the dataset, one uses the normal equation of regression and the other uses the sklearn LinearRegression(). Finally the program compares each array with the actual coefficients and with each other. 
 
 ### Project 7: Unsupervised Learning 1
 
-### Project 8: Unsupervised Learning 1
+
+### Project 8: Unsupervised Learning 2
 
 ### Project 9: Neural Network 1
 

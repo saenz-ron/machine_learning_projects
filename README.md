@@ -2,7 +2,7 @@
 
 Author: Ronnie Saenz
 
-Description: These are a variety of small scale Machine Learning projects that demonstrate various applications of Machine Learning.
+Description: These are a variety of Machine Learning projects that demonstrate various applications of Machine Learning. The python libraries numpy, sci-kit learn, and matplotlib are used throughout the project.
 
 ## Table of Contents:
 
@@ -34,4 +34,4 @@ Generates the same noisy dataset from project 7 but uses principal component ana
 This project is given the skeleton of a neural network with a single layer of hidden nodes to perform the following task. Four input nodes take in bit values and an output node returns the number of ones. After the basic training is over the script displays the average relative error between the target and the results over all 16 patterns. The next training omits one pattern and displays the results after leaving it out. The final training omits two patterns and displays the results after leaving both of them out.
 
 ### Project 10: Neural Network 2
-
+This project is given a working script that performs a classification of "images" using neural networks. It generates a dataset of noisy 5x5 "images" of the types: happy smiley, sad smiley, and neutral. This project rewrites the given script to classify the "images" into "noughts" and "crosses." 

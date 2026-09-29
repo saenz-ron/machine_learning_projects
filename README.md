@@ -31,6 +31,7 @@ Creates a noisy dataset and uses singular value decomposition (SVD) to reduce th
 Generates the same noisy dataset from project 7 but uses principal component analysis (PCA) and compares it to SVD. First PCA is performed by hand by centering the dataset, using numpy.linalg.eig() to find the eigenvalues and eigenvectors, and displaying the proportions of variance of the data represented by each principal component. Next the program runs sklearn's PCA and numpy's SVD, and finally displays a comparison of the three. The comparison shows that the three procedures have virtually identical singular values.
 
 ### Project 9: Neural Network 1
+This project is given the skeleton of a neural network with a single layer of hidden nodes to perform the following task. Four input nodes take in bit values and an output node returns the number of ones. After the basic training is over the script displays the average relative error between the target and the results over all 16 patterns. The next training omits one pattern and displays the results after leaving it out. The final training omits two patterns and displays the results after leaving both of them out.
 
 ### Project 10: Neural Network 2
 

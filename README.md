@@ -28,7 +28,7 @@ This project creates a noisy dataset based on a linear combination pattern and u
 Creates a noisy dataset and uses singular value decomposition (SVD) to reduce the dimensionality. The first two columns of the dataset are uniformly distributed random numbers from 0.0 to 10.0, and the next three are based on the the first two. The third column is the sum of the first two, the fourth column is A times the first column plus B times the second column, and the fifth column is B times the first column plus A times the second column. After creating the columns and adding noise to the third, fourth, and fifth column, the program performs SVD decomposition and displays the matrices U,S, and VT. The user is then asked to input a value for k from 0 to 3. The matrix is reduced by k dimensions and is displayed.
 
 ### Project 8: Unsupervised Learning 2
-
+Generates the same noisy dataset from project 7 but uses principal component analysis (PCA) and compares it to SVD. First PCA is performed by hand by centering the dataset, using numpy.linalg.eig() to find the eigenvalues and eigenvectors, and displaying the proportions of variance of the data represented by each principal component. Next the program runs sklearn's PCA and numpy's SVD, and finally displays a comparison of the three. The comparison shows that the three procedures have virtually identical singular values.
 
 ### Project 9: Neural Network 1
 

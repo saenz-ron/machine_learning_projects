@@ -25,9 +25,10 @@ This project performs linear regression on a linearized dataset that originally 
 This project creates a noisy dataset based on a linear combination pattern and uses multiple regression to discover the pattern. It generates a dataset of 100 rows and 4 columns from the U(0,1) distribution and obtains the fifth column by computing the linear combination of the first four columns with coefficients of 6,8,5, and 7. Afterward, Gaussian noise is added to the fifth column which completes the dataset. Two arrays are created with the coefficients of the dataset, one uses the normal equation of regression and the other uses the sklearn LinearRegression(). Finally the program compares each array with the actual coefficients and with each other. 
 
 ### Project 7: Unsupervised Learning 1
-
+Creates a noisy dataset and uses singular value decomposition (SVD) to reduce the dimensionality. The first two columns of the dataset are uniformly distributed random numbers from 0.0 to 10.0, and the next three are based on the the first two. The third column is the sum of the first two, the fourth column is A times the first column plus B times the second column, and the fifth column is B times the first column plus A times the second column. After creating the columns and adding noise to the third, fourth, and fifth column, the program performs SVD decomposition and displays the matrices U,S, and VT. The user is then asked to input a value for k from 0 to 3. The matrix is reduced by k dimensions and is displayed.
 
 ### Project 8: Unsupervised Learning 2
+
 
 ### Project 9: Neural Network 1
 
